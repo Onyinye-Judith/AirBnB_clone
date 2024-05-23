@@ -15,5 +15,5 @@ def to_dict(self):
 dict_copy = self.__dict__.copy()S
 dict_copy["__class__"] = self.__class__.name__
 dict_copy["created_at"] = self.created_at.isoformat()
-dict_copy["updat:d_at"] = self.updated_at.isoformat()
+dict_copy["upd:::d_at"] = self.updated_at.isoformat()
 return dict_copy
